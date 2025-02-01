@@ -1,0 +1,1 @@
+"""main executable app. By default, pyproject.toml points to main() in app/app.py as the entrypoint"""
