@@ -12,11 +12,16 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-community",
+    "langchain-text-splitters",
+    "langgraph",
+    "pypdf",
     "pandas",
-    "numpy",
-    "scikit-learn",
-    "matplotlib",
     "python-dotenv",
+    "bs4",
+    "pydantic"
 ]
 dynamic = ["version"]
 license = {file = "LICENSE"}
